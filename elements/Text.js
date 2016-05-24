@@ -1,8 +1,7 @@
-import React, {Component, PropTypes} from 'react';
-import createNativeComponent from '../lib/createNativeComponent';
+import React, {PropTypes, Component, createNativeComponent} from 'react';
+import extractProps from '../lib/extract/extractProps';
 import Defs from './Defs';
 import _ from 'lodash';
-import extractProps from '../lib/extract/extractProps';
 import extractText from '../lib/extract/extractText';
 import {numberProp, textProps, fillProps, strokeProps, pathProps} from '../lib/props';
 

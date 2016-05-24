@@ -1,7 +1,6 @@
-import React, {PropTypes, Component} from 'react';
-import './Path'; // must import Path first, don`t know why. without this will throw an `Super expression must either be null or a function, not undefined`
+import React, {PropTypes, Component, createNativeComponent} from 'react';
 import extractProps from '../lib/extract/extractProps';
-import createNativeComponent from '../lib/createNativeComponent';
+import './Path'; // must import Path first, don`t know why. without this will throw an `Super expression must either be null or a function, not undefined`
 import mergeContext from '../lib/mergeContext';
 import {rectProps, pathProps, fillProps, strokeProps, numberProp} from '../lib/props';
 

@@ -1,9 +1,8 @@
-import React, {Component, PropTypes} from 'react';
+import React, {PropTypes, Component, createNativeComponent} from 'react';
+import extractProps from '../lib/extract/extractProps';
 import _ from 'lodash';
 import Defs from './Defs';
-import extractProps from '../lib/extract/extractProps';
 import SerializablePath from '../lib/SerializablePath';
-import createNativeComponent from '../lib/createNativeComponent';
 import {pathProps, numberProp} from '../lib/props';
 
 class Path extends Component{

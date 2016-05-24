@@ -1,6 +1,5 @@
-import React, {Component, PropTypes} from 'react';
+import React, {PropTypes, Component, createNativeComponent} from 'react';
 import {set, remove} from '../lib/extract/extractClipping';
-import createNativeComponent from '../lib/createNativeComponent';
 
 class ClipPath extends Component{
     static displayName = 'ClipPath';

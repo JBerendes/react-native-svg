@@ -1,6 +1,5 @@
-import React, {PropTypes, Component} from 'react';
+import React, {PropTypes, Component, createNativeComponent} from 'react';
 import extractProps from '../lib/extract/extractProps';
-import createNativeComponent from '../lib/createNativeComponent';
 import mergeContext from '../lib/mergeContext';
 import {ellipseProps, pathProps, fillProps, strokeProps, numberProp} from '../lib/props';
 

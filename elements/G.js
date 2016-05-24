@@ -1,10 +1,8 @@
-import React, {Component, PropTypes} from 'react';
+import React, {PropTypes, Component, createNativeComponent} from 'react';
+import extractProps from '../lib/extract/extractProps';
 import Defs from './Defs';
 import _ from 'lodash';
-import createNativeComponent from '../lib/createNativeComponent';
 import {numberProp, contextProps} from '../lib/props';
-
-import extractProps from '../lib/extract/extractProps';
 
 class G extends Component{
     static displayName = 'G';

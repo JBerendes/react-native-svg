@@ -1,6 +1,5 @@
-import React, {Component, PropTypes} from 'react';
+import React, {PropTypes, Component, createNativeComponent} from 'react';
 import extractProps from '../lib/extract/extractProps';
-import createNativeComponent from '../lib/createNativeComponent';
 import {numberProp} from '../lib/props';
 import resolveAssetSource from 'react-native/Libraries/Image/resolveAssetSource';
 
